@@ -68,7 +68,7 @@ h2 {
 }
 
 .photography {
-	height: 400px;
+	height: 300px;
 	width: 100%;
 	background: url(photo.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
