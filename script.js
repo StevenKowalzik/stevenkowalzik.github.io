@@ -6,6 +6,6 @@ $(document).ready(function() {
     });
 
     $('.photography').mouseleave(function(){
-    	$('h3').fadeOut('slow');
+    	$('h3').fadeOut('fast');
     })
 });
