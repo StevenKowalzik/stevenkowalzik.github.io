@@ -194,12 +194,17 @@ header {
 @media (max-width: 800px) {
     .social {
         width: 80%;
-        margin: 50px 10%;
     }
     .aboutme {
         width: 96%;
         padding-left: 2%;
         padding-right: 2%;
+    }
+    .jumbos { 
+        height: 200px;
+    }
+    .overlay h3 {
+        margin-top: 75px;
     }
 }
 
