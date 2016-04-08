@@ -5,6 +5,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 html{
 	height: 100%;
+    width: 100%;
 }
 
 body{
@@ -126,7 +127,6 @@ header {
 
 #photo {
 	width: 250px;
-	
 }
 
 #program {
@@ -150,8 +150,6 @@ header {
   	transition: all 0.5s ease;
 }
 
-
-
 .overlay:hover p {
 	opacity: 1;
   	-webkit-transform: translate3d(0,-50px,0);
@@ -164,25 +162,22 @@ header {
 	opacity: 1;
 }
 
-
 .aboutme {
 	padding-top: 45px;
 	text-align: center;
 	margin: auto;
-	width: 500px;
+    width: 100%;
+	max-width: 500px;
 	line-height: 20px;
 }
 
 .social {
 	border-top: 2px solid #CFD8DC;
 	border-bottom: 2px solid #CFD8DC;
-	margin-top: 50px;
-	margin-left: 35%;
-	margin-right: 35%;
-	margin-bottom: 50px;
+    margin: 50px auto;
 	padding-bottom: 25px;
-	width: 30%;
-	float: left;
+	width: 50%;
+    max-width: 500px;
 }
 
 .social h1 {
@@ -196,6 +191,17 @@ header {
 	width: 31%;
 }
 
+@media (max-width: 800px) {
+    .social {
+        width: 80%;
+        margin: 50px 10%;
+    }
+    .aboutme {
+        width: 96%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
 
 
 
