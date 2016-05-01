@@ -29,7 +29,7 @@ h1, h2 {
 }
 
 h1 {
-	padding-top: 1em;
+	padding-top: 1.75em;
 	font-size: 2.5em;
 	margin-bottom: 10px;
 	color: #78909C;
@@ -209,7 +209,17 @@ header {
     .header {
         padding: 0.5em;
     }
+    h1 {
+        padding-top: 1.5em;
+    }
 }
+
+@media (max-width: 640px) { 
+    h1 {
+        padding-top: 1em;
+    }
+}
+
 
 
 
